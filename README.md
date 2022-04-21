@@ -1,23 +1,24 @@
-# TÍTULO DO PROJETO
+Site de Reformas
 
-`CURSO`
+Análise e Desenvolvimento de Sistemas
 
-`DISCIPLINA`
+EIXO 2
 
-`SEMESTRE`
+1° Semestre
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Uma aplicação com o objetivo de indicar um profissional na área de obras para diminuição de imprevistos, insatisfações e retrabalho na hora de contratar um serviço residencial.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-
+* Nielsen Silva Paulo
+* Bruno Lustosa
+* Marina Rodrigues
+* Ana Carolina Mendes
+* Anderson Marques
+* Henrique Gomes 
 ## Orientador
 
-* Nome completo do professor 1
+* Nathalia Assis Valentim
 
 ## Instruções de utilização
 
