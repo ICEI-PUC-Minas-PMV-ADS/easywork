@@ -1,0 +1,425 @@
+* {
+  text-decoration: none !important;
+}
+
+body,
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Cabeçalho */
+#header {
+  width: 100%;
+  background-color: var(--secundary);
+}
+
+#header .navbar-collapse {
+  width: auto;
+}
+/* list de links do cabeçalho */
+#header .nav-link {
+  text-transform: uppercase;
+  font-size: medium;
+  font-weight: 500;
+  padding: 1px;
+  color: var(--primary);
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 3px;
+  border-bottom: solid 4px transparent;
+}
+#header .nav-link:hover {
+  border-bottom: solid 4px var(--laranja);
+  color: var(--laranja);
+}
+/* Negrito do paragrafo */
+#easy{
+  color: #fbac03;
+}
+#work{
+  color: #1280da;
+}
+.text{
+  font-weight: 500;
+    font-size: large;
+}
+.textini{
+  font-weight: 300;
+  font-size: x-large;
+}
+/* //Negrito do paragrafo */
+
+/* //list de links do cabeçalho */
+
+
+
+
+
+/* Modificação dos Botões */
+
+.btn {
+  background-color: transparent;
+  color: var(--laranja);
+  border-color: var(--laranja);
+  text-transform: uppercase;
+  font-size: small;
+  
+}
+
+.btn:hover {
+  background-color: var(--laranja);
+  border-color: transparent;
+
+}
+
+/* //Modificação dos Botões */
+
+/* Início da sessão Segurança */
+.seguranca {
+  padding-top: .1rem;
+  padding-bottom: .1rem;
+}
+
+.seguranca span {
+  font-size: 2.5rem;
+}
+
+.seguranca h3 {
+  font-size: 2.7rem;
+  color: rgb(51, 51, 51);
+}
+
+/*Fim da sessão Segurança*/
+
+
+/*Início da sessão epi*/
+.epi {
+  padding-top: .1rem;
+}
+
+.epi h3 {
+  font-size: 2.7rem;
+  color: rgb(51, 51, 51);
+}
+#nrs ul{
+  list-style-type: none;
+}
+
+/*Fim da sessão epi*/
+
+/* Inicio Sessão Leis Trabalhistas */
+
+.accordion-collapse{
+  background-color: var(--secundary);
+}
+
+.accordion-button {
+  background: #1680d6;
+  font-size: medium;
+  font-weight: 900;
+  color: #fff;
+}
+
+
+#img-leis{
+  background: rgb(214, 214, 214) ;
+  border-radius: 50%;
+  margin: 10px;
+
+}
+
+/* Fim Sessão Leis Trabalhistas */
+
+
+
+
+/*Início da sessão Profissionais*/
+
+.check{
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.check ul {
+  list-style: none;
+}
+
+.check {
+  font-family: 'Roboto', sans-serif;
+}
+
+.check ul li {
+  padding-top: 0;
+  font-size: 1.1rem;
+  color: rgb(51, 51, 51);
+}
+
+.check ul li i {
+  padding-right: 1rem;
+  color: #fbac03;
+}
+
+.section-cards h2{
+  /* título das categorias */
+  color: #1680d6;
+  margin-top: 1rem;
+  margin: 4rem 7.6rem 1.9rem 7.6rem;
+  border-bottom:0.4px solid rgb(194, 191, 191);
+}
+
+
+.section-cards .heading h4 {
+  /* Descrição da página */
+  font-size: 1.2rem;
+  color: rgb(51, 51, 51);
+  margin: 0 7.6rem -1rem 7.6rem;
+  line-height: 1.9rem;
+}
+
+.section-cards {
+  /* espaçamento */
+  padding-top: 3.5rem;
+  padding-bottom: 2rem;
+}
+
+.section-cards .card {
+  /* card primário */
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  margin: 30px 0;
+  border-radius: 6px;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #fff;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2),
+  0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+.section-cards .card .card-image {
+  /* card da imagem */
+  height: 60%;
+  position: relative;
+  overflow: hidden;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: -30px;
+  border-radius: 6px;
+  box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56),
+  0 4px 24px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.section-cards .card .content {
+  /* espaçamento do card */
+  padding: 15px 30px;
+}
+
+.section-cards .card-caption,
+.section-cards .card-caption a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* Fim da sessão Profissionais */
+
+
+
+/*Início da Sessão Cursos*/
+
+.materiais {
+  /* espaçamento */
+  padding: 0rem 1rem 2rem;
+}
+
+.heading {
+  /* título */
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.heading span {
+  /* título */
+  font-size: 1.8rem;
+  color: #1680d6;
+}
+
+.heading h3 {
+  /* título */
+  font-size: 2.2rem;
+  text-transform: capitalize;
+  color: rgb(51, 51, 51);
+}
+
+.heading {
+  /* título */
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.cursos .box-container {
+  /* tamanho dos cards da sessão cursos */
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(20rem, 1fr))[auto-fit];
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 2rem;
+}
+
+.cursos .box-container .box {
+  /* contorno dos cards da sessão cursos */
+  border: 0.1rem solid rgba(0, 0, 0, 0.4);
+}
+
+.cursos .box-container .box:hover .image img {
+  /* efeito ao passar o mouse em cima das fotos da sessão cursos */
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.cursos .box-container .box .image {
+  /* altura das fotos da sessão cursos */
+  height: 15rem;
+  overflow: hidden;
+}
+
+.cursos .box-container .box .image img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.cursos .box-container .box .content {
+  /* espaçamento dentro dos cards */
+  padding: 1rem;
+}
+
+.cursos .box-container .box .content .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+}
+
+.cursos .box-container .box .content .icons span {
+  /* informações data e hora */
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  color: rgb(51, 51, 51);
+}
+
+.cursos .box-container .box .content .icons span i {
+  /* ícones da sessão cursos */
+  color: #1280da;
+  padding-right: .5rem;
+}
+
+.cursos .box-container .box .content h3 {
+  /* descrição dos cards da sessão cursos */
+  font-size: 1.6rem;
+  text-transform: capitalize;
+  color: rgb(51, 51, 51);
+  padding: .5rem;
+}
+/*Início da Sessão Materiais*/
+
+.materiais .box-container {
+  /* tamanho dos cards da sessão materiais */
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(20rem, 1fr))[auto-fit];
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 2rem;
+}
+
+.materiais .box-container .box {
+  /* contorno dos cards da sessão materiais */
+  border: 0.1rem solid rgba(0, 0, 0, 0.4);
+}
+
+.materiais .box-container .box:hover .image img {
+  /* efeito ao passar o mouse em cima das fotos da sessão materiais */
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.materiais .box-container .box .image {
+  /* altura das fotos da sessão materiais */
+  height: 15rem;
+  overflow: hidden;
+}
+
+.materiais .box-container .box .image img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.materiais .box-container .box .content {
+  /* espaçamento dentro dos cards */
+  padding: 1rem;
+}
+
+.materiais .box-container .box .content .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+}
+
+.materiais .box-container .box .content .icons span {
+  /* informações data e hora */
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  color: rgb(51, 51, 51);
+}
+
+.materiais .box-container .box .content .icons span i {
+  /* ícones da sessão materiais */
+  color: #1280da;
+  padding-right: .5rem;
+}
+
+.materiais .box-container .box .content h3 {
+  /* descrição dos cards da sessão materiais */
+  font-size: 1.6rem;
+  text-transform: capitalize;
+  color: rgb(51, 51, 51);
+  padding: .5rem;
+}
+
+
+/*Fim da Sessão Materiais*/
+
+/*Fim da Sessão Cursos*/
+
+/* Rodapé */
+#rodape {
+  margin-bottom: 0%;
+  background-color: var(--secundary);
+}
+
+#rodape .nav-link {
+  text-transform: uppercase;
+  font-size: medium;
+  font-weight: 200;
+  color: var(--primary);
+}
+
+#rodape .nav-item :hover {
+  color: var(--laranja);
+}
+
+/* Final Rodapé */

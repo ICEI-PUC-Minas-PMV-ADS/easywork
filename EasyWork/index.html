@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="assets/headcp.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      function mensagem() {
+        alert("Seja bem-vindo ao Easy Work");
+      }
+    </script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/main.css" />
+
+    <title>Easy Work - Página Inicial</title>
+  </head>
+  <!-- HEADER -->
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <!-- IMAGEM LOGO-->
+          <a onclick="mensagem()" class="navbar-brand" href="index.html"
+            ><img
+              src="assets/logotp.png"
+              alt="img-logo"
+              class="img-fluid"
+              width="170px"
+          /></a>
+          <!--//IMAGEM LOGO-->
+          <!-- BOTÃO DE RESPANSIVIDADE -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- //BOTÃO DE RESPANSIVIDADE -->
+          <!-- INICIO DA LISTA CABEÇALHO -->
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="seguranca_epi.html"
+                  >Segurança e EPI</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="leistrab.html">Leis Trabalhistas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="profissionais.html">Profissionais</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cursos_e_materiais.html"
+                  >Cursos e Materiais</a
+                >
+              </li>
+            </ul>
+            <!-- //FIM LISTA CABEÇALHO -->
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- HEADER -->
+    <!-- Conteúdo -->
+    <main>
+      <div class="container mt-3 mb-3">
+        <div class="row">
+          <p class="text-center textini">
+            Encontre profissionais da construção civil na cidade de São Paulo. A
+            <b id="easy">Easy</b> <b id="work">Work</b> tem em sua concepção o
+            aquecimento do setor da construção civil na cidade de São Paulo,
+            unindo os profissionais da área com os potenciais clientes. Além
+            disso, proporcionar conteúdos importantes para os profissionais da
+            área.
+          </p>
+        </div>
+      </div>
+      <!-- Segurança e EPI
+      Onde o conteiner se divide em 12 blocos determinados por MD-12
+      Fazendo a divisão col-md-4 para o texto e col-md-8 para imagem
+      align center = deixar os 2 conteudos alinhados -->
+      <div id="epi">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-md-4 align-self-center">
+              <h1>Segurança e EPI</h1>
+              <div class="text mb-2">
+                Entenda mais sobre segurança do trabalho e a importancia do EPI no seu dia-a-dia.
+              </div>
+              <a href="seguranca_epi.html" class="btn btn-primary"
+                >Mostrar Mais</a
+              >
+            </div>
+            <div class="col-md-8 align-self-center text-center">
+              <img
+                src="assets/telhadobg.png"
+                alt="img-telhado"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Inicio do segundo card -->
+      <div id="leis">
+        <div class="container">
+          <div class="row flex-wrap-reverse align-self-center text-center">
+            <div class="col-md-8 mb-4 align-self-center">
+              <img src="assets/novaimg.png" alt="imgplan" class="img-fluid" />
+            </div>
+            <div class="col-md-4 mb-4 align-self-center">
+              <h1>Leis Trabalhistas</h1>
+              <div class="text mb-2">
+                Saiba mais sobre seus direitos e veja quais são as principais
+                dúvidas relacionadas aos profissionais da área da construção
+                civil.
+              </div>
+              <a href="leistrab.html" class="btn btn-primary">Mostrar Mais</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="prof">
+        <div class="container">
+          <div class="row text-center align-self-center">
+            <div class="col-md-6 mb-4">
+              <h1>Profissionais Parceiros</h1>
+              <div class="text mb-2">
+                Não deixe sua obra parada. Encontre um profissional parceiro da
+                <b id="easy">Easy</b> <b id="work">Work</b> em sua região.
+              </div>
+              <a href="profissionais.html" class="btn btn-primary"
+                >Mostrar Mais</a
+              >
+              <img
+                id="img-jr"
+                src="assets/azuleijobg.png"
+                alt=""
+                class="img-fluid align-self-center"
+              />
+            </div>
+
+            <div class="col-md-5 mb-4">
+              <img
+                src="assets/carimbg.png"
+                alt="carimdemao"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="cursos">
+        <div class="container">
+          <div class="row flex-wrap-reverse align-self-center text-center">
+            <div class="col-md-6 mb-4">
+              <img src="assets/pintorbg.png" alt="pintura" class="img-fluid" />
+            </div>
+            <div class="col-md-6 mb-4">
+              <h1>Indicações de Cursos</h1>
+              <div class="text mb-2">
+                Para você profissional que queira se profissionalizar, descubra
+                os cursos que estão em alta entre os profissionais da
+                construção.
+              </div>
+              <a href="cursos_e_materiais.html" class="btn btn-primary"
+                >Mostrar Mais</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Conteúdo -->
+    <!--Rodapé -->
+
+    <footer id="rodape" class="py-3">
+      <ul class="nav justify-content-center border-bottom pb-3">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link px-2">Página Inicial</a>
+        </li>
+        <li class="nav-item"><a href="#" class="nav-link px-2">Contato</a></li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2">Voltar ao Topo</a>
+        </li>
+      </ul>
+      <p class="text-center">© 2022 Copyright</p>
+    </footer>
+    <!--//Rodapé -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
