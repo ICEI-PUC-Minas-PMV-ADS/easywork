@@ -18,6 +18,9 @@ html {
   color: #1280da;
 }
 /* //Logo */
+h1{
+  font-family: 'Fredoka One', cursive;
+}
 
 /* Cabeçalho */
 #header {
@@ -30,9 +33,9 @@ html {
 }
 /* list de links do cabeçalho */
 #header .nav-link {
-  text-transform: uppercase;
+  font-family: 'Fredoka One', cursive;
   font-size: medium;
-  font-weight: 500;
+  font-weight: 400;
   padding: 1px;
   color: var(--primary);
   margin-left: 10px;
@@ -46,9 +49,11 @@ html {
 }
 /* Negrito do paragrafo */
 #easy{
+  font-family: 'Fredoka One', cursive;
   color: #fbac03;
 }
 #work{
+  font-family: 'Fredoka One', cursive;
   color: #1280da;
 }
 .text{
@@ -70,6 +75,7 @@ html {
 /* Modificação dos Botões */
 
 .btn {
+  font-family: 'Fredoka One', cursive;
   background-color: transparent;
   color: var(--laranja);
   border-color: var(--laranja);
@@ -79,6 +85,7 @@ html {
 }
 
 .btn:hover {
+  
   background-color: var(--laranja);
   border-color: transparent;
 
