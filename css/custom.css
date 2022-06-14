@@ -6,6 +6,18 @@ body,
 html {
   font-family: 'Roboto', sans-serif;
 }
+/* Logo */
+#lg1{
+  font-size: x-large;
+  font-family: 'Fredoka One', cursive;
+  color: #fbac03;
+}
+#lg2{
+  font-size: x-large;
+  font-family: 'Fredoka One', cursive;
+  color: #1280da;
+}
+/* //Logo */
 
 /* Cabeçalho */
 #header {

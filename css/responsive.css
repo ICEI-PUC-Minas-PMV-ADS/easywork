@@ -53,13 +53,12 @@
         font-size: small;
 
     }
-
-    #img-jr {
-        display: none;
-    }
 }
 
 @media (max-width: 768px) {
+    #img-jr {
+            display: none;
+        }
     .header {
         padding: 2rem;
     }
