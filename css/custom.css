@@ -427,11 +427,8 @@ html {
   text-transform: uppercase;
   font-size: medium;
   font-weight: 200;
-  color: var(--primary);
+  color: black;
 }
 
-#rodape .nav-item :hover {
-  color: var(--laranja);
-}
 
 /* Final Rodapé */

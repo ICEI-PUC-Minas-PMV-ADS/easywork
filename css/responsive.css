@@ -101,3 +101,10 @@
         margin: 1rem 2rem;
     }
 }
+@media (max-width: 576px) {
+#rodape .nav-link {
+font-size: small;
+color: #000;
+margin-right: 15px;
+}
+}
