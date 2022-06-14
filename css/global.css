@@ -1,0 +1,13 @@
+:root{
+    
+    --primary: #1680d6;
+    --darkblue: rgb(0, 25, 167);
+    --secundary: #0000001f;
+    --laranja: #fbac03;
+}
+
+
+h1{
+    color: #fbac03;
+}
+
