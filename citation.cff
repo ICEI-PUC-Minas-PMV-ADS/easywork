@@ -1,0 +1,29 @@
+message: Please cite this software using these metadata.
+title: Easy Work
+authors:
+  - family-names: Silva Paulo
+    given-names: Nielsen
+  - family-names: Lustosa
+    given-names: Bruno
+  - family-names: Rodrigues 
+    given-names: Marina
+  - family-names: carolina silva Mendes
+    given-names: Ana 
+  - family-names: Marques 
+    given-names: Anderson
+  - family-names: Gomes
+    given-names: Henrique
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: 
+    given-names: 
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Assis Valentim
+    given-names: Nathalia
+keywords:
+  - Encontrar Profissionais de Construção Civil
+  - Serviço Residencial
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/easywork
+version: 1.0.0
+date-released: 2022-06-14
